@@ -1,0 +1,135 @@
+
+/*Generales*/
+body {
+	background-color: rgba(141, 165, 0, 0.43);
+	color: #240A04;
+	padding-top: 20px;
+
+}
+
+h1, h2, h3, h5, ul.tabs-titles {font-family: 'Raleway', sans-serif; font-weight: 700;}
+h1, h2 { color: #8A0E49;}
+h3 {color: #DE1474;}
+
+p {margin-top:10px;}
+
+div.habilidades, div.projects, div.footer {
+	margin-top: 50px; 
+}
+
+div.project {margin-top:30px;}
+
+
+/*Tab Habilidades*/
+
+ul.tabs-titles {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	font-size: 120%;
+}
+
+.tabs-titles li {
+	float:left;
+	padding: 12px 25px;
+	background-color:#CAC48F ;
+	margin-right: 10px;
+}
+
+.tabs-titles li.ui-tabs-active {
+	background-color: #97BF30;
+}
+
+.ui-state-active > a, .ui-state-focus > a, .ui-state-focus > a:hover, a:hover {
+	text-decoration: none;
+}
+
+#tabs-1, #tabs-2, #tabs-3 {
+	/*height: 400px;*/
+	background-color: #FFFFE6;
+	padding: 20px 30px; 
+}
+
+.tabs-titles li > a {
+	color: #fff;
+}
+
+.habilidades {
+	color: gray;
+	font-size: 98%;
+}
+
+.habilidades-lista ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.habilidades-lista li {
+	width: 100%;
+	
+	margin-bottom: 4px;
+}
+
+.habilidades-lista h5 {
+	
+	font-weight: bold;
+	font-size: 110%;
+}
+
+div.barra-outer {
+	background-color: gray;
+	width: 100%;
+	padding: 0;
+}
+
+.barra-inner {
+	background-color: #97BF30;
+	height: 10px;
+	display: block;
+}
+
+.habilidades table {
+	color: gray;
+	font-size: 98%;
+}
+
+.habilidades td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+.habilidades strong {
+	font-size: 1.1em;
+}
+
+/*Proyectos*/
+
+ ul.hab-pills {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hab-pills li {
+	float: left;
+	margin: 2px;
+	background-color: #97BF30;
+	padding: 0 3px;
+	color: #fff;
+}
+
+/*Footer*/
+div.footer {
+	background-color: #240A04;
+	padding-bottom: 50px;
+}
+
+.footer a {
+	color:#97BF30;
+	font-weight: bold;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
