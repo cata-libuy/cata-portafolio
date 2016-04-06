@@ -1,15 +1,14 @@
 
 /*Generales*/
 body {
-	background-color: rgba(141, 165, 0, 0.43);
-	color: #240A04;
+	background-color: rgb(53, 53, 52);
+	color: #E7FCE3;
 	padding-top: 20px;
 
 }
 
 h1, h2, h3, h5, ul.tabs-titles {font-family: 'Raleway', sans-serif; font-weight: 700;}
-h1, h2 { color: #8A0E49;}
-h3 {color: #DE1474;}
+h1, h2, h3 { color: #97BF30;}
 
 p {margin-top:10px;}
 
@@ -119,9 +118,14 @@ div.barra-outer {
 	color: #fff;
 }
 
+a.thumbnail.thumbnail-black  {
+	background-color: #000;
+	border-color: #000;
+}
+
 /*Footer*/
 div.footer {
-	background-color: #240A04;
+	background-color: rgba(21, 21, 21, 0.61);
 	padding-bottom: 50px;
 }
 
